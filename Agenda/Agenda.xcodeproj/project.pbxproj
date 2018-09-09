@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580CF2BE2145CE7A00756ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2BD2145CE7A00756ADD /* AppDelegate.swift */; };
+		580CF2C32145CE7A00756ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580CF2C12145CE7A00756ADD /* Main.storyboard */; };
+		580CF2C62145CE7A00756ADD /* Agenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2C42145CE7A00756ADD /* Agenda.xcdatamodeld */; };
+		580CF2C82145CE7D00756ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580CF2C72145CE7D00756ADD /* Assets.xcassets */; };
+		580CF2CB2145CE7D00756ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580CF2C92145CE7D00756ADD /* LaunchScreen.storyboard */; };
+		580CF2D62145CE7D00756ADD /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2D52145CE7D00756ADD /* AgendaTests.swift */; };
+		580CF2E12145CE7E00756ADD /* AgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2E02145CE7E00756ADD /* AgendaUITests.swift */; };
+		580CF2F02145D05A00756ADD /* AgendaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2EF2145D05A00756ADD /* AgendaTableViewController.swift */; };
+		580CF2F22145D0D700756ADD /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2F12145D0D700756ADD /* Agenda.swift */; };
+		580CF2F52145D70000756ADD /* AddAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2F42145D70000756ADD /* AddAgendaViewController.swift */; };
+		580CF2F72145E06400756ADD /* CompleteAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580CF2F62145E06400756ADD /* CompleteAgendaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580CF2D22145CE7D00756ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580CF2B22145CE7A00756ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580CF2B92145CE7A00756ADD;
+			remoteInfo = Agenda;
+		};
+		580CF2DD2145CE7E00756ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580CF2B22145CE7A00756ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580CF2B92145CE7A00756ADD;
+			remoteInfo = Agenda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580CF2BA2145CE7A00756ADD /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580CF2BD2145CE7A00756ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580CF2C22145CE7A00756ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580CF2C52145CE7A00756ADD /* Agenda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Agenda.xcdatamodel; sourceTree = "<group>"; };
+		580CF2C72145CE7D00756ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580CF2CA2145CE7D00756ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580CF2CC2145CE7D00756ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580CF2D12145CE7D00756ADD /* AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580CF2D52145CE7D00756ADD /* AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTests.swift; sourceTree = "<group>"; };
+		580CF2D72145CE7E00756ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580CF2DC2145CE7E00756ADD /* AgendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580CF2E02145CE7E00756ADD /* AgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaUITests.swift; sourceTree = "<group>"; };
+		580CF2E22145CE7E00756ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580CF2EF2145D05A00756ADD /* AgendaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTableViewController.swift; sourceTree = "<group>"; };
+		580CF2F12145D0D700756ADD /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		580CF2F42145D70000756ADD /* AddAgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAgendaViewController.swift; sourceTree = "<group>"; };
+		580CF2F62145E06400756ADD /* CompleteAgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteAgendaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580CF2B72145CE7A00756ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2CE2145CE7D00756ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2D92145CE7E00756ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580CF2B12145CE7A00756ADD = {
+			isa = PBXGroup;
+			children = (
+				580CF2BC2145CE7A00756ADD /* Agenda */,
+				580CF2D42145CE7D00756ADD /* AgendaTests */,
+				580CF2DF2145CE7E00756ADD /* AgendaUITests */,
+				580CF2BB2145CE7A00756ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580CF2BB2145CE7A00756ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2BA2145CE7A00756ADD /* Agenda.app */,
+				580CF2D12145CE7D00756ADD /* AgendaTests.xctest */,
+				580CF2DC2145CE7E00756ADD /* AgendaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580CF2BC2145CE7A00756ADD /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2F32145D0E000756ADD /* Model */,
+				580CF2EE2145CE8600756ADD /* Supporting Files */,
+				580CF2C12145CE7A00756ADD /* Main.storyboard */,
+				580CF2CC2145CE7D00756ADD /* Info.plist */,
+				580CF2C42145CE7A00756ADD /* Agenda.xcdatamodeld */,
+				580CF2EF2145D05A00756ADD /* AgendaTableViewController.swift */,
+				580CF2F42145D70000756ADD /* AddAgendaViewController.swift */,
+				580CF2F62145E06400756ADD /* CompleteAgendaViewController.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+		580CF2D42145CE7D00756ADD /* AgendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2D52145CE7D00756ADD /* AgendaTests.swift */,
+				580CF2D72145CE7E00756ADD /* Info.plist */,
+			);
+			path = AgendaTests;
+			sourceTree = "<group>";
+		};
+		580CF2DF2145CE7E00756ADD /* AgendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2E02145CE7E00756ADD /* AgendaUITests.swift */,
+				580CF2E22145CE7E00756ADD /* Info.plist */,
+			);
+			path = AgendaUITests;
+			sourceTree = "<group>";
+		};
+		580CF2EE2145CE8600756ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2BD2145CE7A00756ADD /* AppDelegate.swift */,
+				580CF2C72145CE7D00756ADD /* Assets.xcassets */,
+				580CF2C92145CE7D00756ADD /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		580CF2F32145D0E000756ADD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				580CF2F12145D0D700756ADD /* Agenda.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580CF2B92145CE7A00756ADD /* Agenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580CF2E52145CE7E00756ADD /* Build configuration list for PBXNativeTarget "Agenda" */;
+			buildPhases = (
+				580CF2B62145CE7A00756ADD /* Sources */,
+				580CF2B72145CE7A00756ADD /* Frameworks */,
+				580CF2B82145CE7A00756ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agenda;
+			productName = Agenda;
+			productReference = 580CF2BA2145CE7A00756ADD /* Agenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580CF2D02145CE7D00756ADD /* AgendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580CF2E82145CE7E00756ADD /* Build configuration list for PBXNativeTarget "AgendaTests" */;
+			buildPhases = (
+				580CF2CD2145CE7D00756ADD /* Sources */,
+				580CF2CE2145CE7D00756ADD /* Frameworks */,
+				580CF2CF2145CE7D00756ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580CF2D32145CE7D00756ADD /* PBXTargetDependency */,
+			);
+			name = AgendaTests;
+			productName = AgendaTests;
+			productReference = 580CF2D12145CE7D00756ADD /* AgendaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580CF2DB2145CE7E00756ADD /* AgendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580CF2EB2145CE7E00756ADD /* Build configuration list for PBXNativeTarget "AgendaUITests" */;
+			buildPhases = (
+				580CF2D82145CE7E00756ADD /* Sources */,
+				580CF2D92145CE7E00756ADD /* Frameworks */,
+				580CF2DA2145CE7E00756ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580CF2DE2145CE7E00756ADD /* PBXTargetDependency */,
+			);
+			name = AgendaUITests;
+			productName = AgendaUITests;
+			productReference = 580CF2DC2145CE7E00756ADD /* AgendaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580CF2B22145CE7A00756ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yash Ganorkar";
+				TargetAttributes = {
+					580CF2B92145CE7A00756ADD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					580CF2D02145CE7D00756ADD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 580CF2B92145CE7A00756ADD;
+					};
+					580CF2DB2145CE7E00756ADD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 580CF2B92145CE7A00756ADD;
+					};
+				};
+			};
+			buildConfigurationList = 580CF2B52145CE7A00756ADD /* Build configuration list for PBXProject "Agenda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580CF2B12145CE7A00756ADD;
+			productRefGroup = 580CF2BB2145CE7A00756ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580CF2B92145CE7A00756ADD /* Agenda */,
+				580CF2D02145CE7D00756ADD /* AgendaTests */,
+				580CF2DB2145CE7E00756ADD /* AgendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580CF2B82145CE7A00756ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580CF2CB2145CE7D00756ADD /* LaunchScreen.storyboard in Resources */,
+				580CF2C82145CE7D00756ADD /* Assets.xcassets in Resources */,
+				580CF2C32145CE7A00756ADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2CF2145CE7D00756ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2DA2145CE7E00756ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580CF2B62145CE7A00756ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580CF2F02145D05A00756ADD /* AgendaTableViewController.swift in Sources */,
+				580CF2F52145D70000756ADD /* AddAgendaViewController.swift in Sources */,
+				580CF2C62145CE7A00756ADD /* Agenda.xcdatamodeld in Sources */,
+				580CF2F72145E06400756ADD /* CompleteAgendaViewController.swift in Sources */,
+				580CF2BE2145CE7A00756ADD /* AppDelegate.swift in Sources */,
+				580CF2F22145D0D700756ADD /* Agenda.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2CD2145CE7D00756ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580CF2D62145CE7D00756ADD /* AgendaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580CF2D82145CE7E00756ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580CF2E12145CE7E00756ADD /* AgendaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580CF2D32145CE7D00756ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580CF2B92145CE7A00756ADD /* Agenda */;
+			targetProxy = 580CF2D22145CE7D00756ADD /* PBXContainerItemProxy */;
+		};
+		580CF2DE2145CE7E00756ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580CF2B92145CE7A00756ADD /* Agenda */;
+			targetProxy = 580CF2DD2145CE7E00756ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580CF2C12145CE7A00756ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580CF2C22145CE7A00756ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580CF2C92145CE7D00756ADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580CF2CA2145CE7D00756ADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580CF2E32145CE7E00756ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580CF2E42145CE7E00756ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580CF2E62145CE7E00756ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = Agenda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.Agenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580CF2E72145CE7E00756ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = Agenda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.Agenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580CF2E92145CE7E00756ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = AgendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.AgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agenda.app/Agenda";
+			};
+			name = Debug;
+		};
+		580CF2EA2145CE7E00756ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = AgendaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.AgendaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agenda.app/Agenda";
+			};
+			name = Release;
+		};
+		580CF2EC2145CE7E00756ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = AgendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.AgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Agenda;
+			};
+			name = Debug;
+		};
+		580CF2ED2145CE7E00756ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55HT2TPY98;
+				INFOPLIST_FILE = AgendaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashganorkar.AgendaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Agenda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580CF2B52145CE7A00756ADD /* Build configuration list for PBXProject "Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CF2E32145CE7E00756ADD /* Debug */,
+				580CF2E42145CE7E00756ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580CF2E52145CE7E00756ADD /* Build configuration list for PBXNativeTarget "Agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CF2E62145CE7E00756ADD /* Debug */,
+				580CF2E72145CE7E00756ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580CF2E82145CE7E00756ADD /* Build configuration list for PBXNativeTarget "AgendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CF2E92145CE7E00756ADD /* Debug */,
+				580CF2EA2145CE7E00756ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580CF2EB2145CE7E00756ADD /* Build configuration list for PBXNativeTarget "AgendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580CF2EC2145CE7E00756ADD /* Debug */,
+				580CF2ED2145CE7E00756ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		580CF2C42145CE7A00756ADD /* Agenda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				580CF2C52145CE7A00756ADD /* Agenda.xcdatamodel */,
+			);
+			currentVersion = 580CF2C52145CE7A00756ADD /* Agenda.xcdatamodel */;
+			path = Agenda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 580CF2B22145CE7A00756ADD /* Project object */;
+}
